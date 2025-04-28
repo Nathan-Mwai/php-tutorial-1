@@ -8,17 +8,14 @@
 <body>
     <?php
     // Scalar types (contains one value)
-    $string = "Nathan";
-    $int=123;
-    $float = 1.234;
-    $bool = true;
+    $string = "";
+    $int=0;
+    $float =0;
+    $bool = false;
 
-    //Array type
-    $array = array("Daniel", "Bella","nima");
-    $array = ["Daniel", "Bella","nima"];
+    $array = [];
+    $object= null
 
-    //Object type
-    $object = new Car();
     ?>
 </body>
 </html>
