@@ -7,8 +7,18 @@
 </head>
 <body>
     <?php
-    $fullName = "Nathan Mwai";
-    echo $fullName;
+    // Scalar types (contains one value)
+    $string = "Nathan";
+    $int=123;
+    $float = 1.234;
+    $bool = true;
+
+    //Array type
+    $array = array("Daniel", "Bella","nima");
+    $array = ["Daniel", "Bella","nima"];
+
+    //Object type
+    $object = new Car();
     ?>
 </body>
 </html>
