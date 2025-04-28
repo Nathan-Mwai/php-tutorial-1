@@ -7,15 +7,8 @@
 </head>
 <body>
     <?php
-    // Scalar types (contains one value)
-    $string = "";
-    $int=0;
-    $float =0;
-    $bool = false;
-
-    $array = [];
-    $object= null
-
+    $name = "Nate"
     ?>
+    <p>Hi , My name is <?php echo $name ?> and I'm learning PHP!</p>
 </body>
 </html>
