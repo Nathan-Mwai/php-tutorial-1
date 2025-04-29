@@ -7,10 +7,15 @@
 </head>
 <body>
     <?php
-    // Assignment operator
+    // comparison operator
+
     $a = 2;
-    $a *= 4; // make a = 8
-    echo $a;
+    $b = "2";
+    if($a == $b) {
+        echo "true";
+        }else{
+            echo "false";
+        }
     ?>
 </body>
 </html>
