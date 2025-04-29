@@ -11,7 +11,7 @@
 
     $a = 2;
     $b = "2";
-    if($a == $b) {
+    if($a === $b) {
         echo "true";
         }else{
             echo "false";
