@@ -7,12 +7,23 @@
 </head>
 <body>
     <?php
-    // String operator
+    // Arithmetic operator
 
-    $a = "Hello";
-    $b = "World!";
-    $c = $a . " " . $b;
-    echo $c;
+    echo 1 + 2;
+    echo "<br>";
+    echo 1 - 2;
+    echo "<br>";
+    echo 1 * 2;
+    echo "<br>";
+    echo 1 / 2;
+    echo "<br>";
+    echo 1 % 2;
+    echo "<br>";
+    echo 10 ** 3; //Power
+    echo "<br>";
+    echo 1 + 2 * 4; //uses bodmas
+    echo "<br>";
+    echo (1 + 2) * 4; //uses bodmas
     ?>
 </body>
 </html>
