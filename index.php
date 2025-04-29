@@ -8,10 +8,16 @@
 <body>
     <?php
     // comparison operator
-
-    $a = 2;
-    $b = "2";
-    if($a === $b) {
+    // = assigning
+    // == checks for values
+    // === checks for both values and data types and other strict comparisons
+    // != checks if values are not true
+    // <> also checks if values are not true
+    // !== checks if values are not true and checks both strictly similar
+    // < and > also apply
+    $a = 5;
+    $b = 4;
+    if($a < $b) {
         echo "true";
         }else{
             echo "false";
