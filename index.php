@@ -7,21 +7,19 @@
 </head>
 <body>
     <?php
-    // comparison operator
-    // = assigning
-    // == checks for values
-    // === checks for both values and data types and other strict comparisons
-    // != checks if values are not true
-    // <> also checks if values are not true
-    // !== checks if values are not true and checks both strictly similar
-    // < and > also apply
-    $a = 5;
+    // logical operators
+
+    //we use "and" === &&
+    // we use "or" === ||
     $b = 4;
-    if($a < $b) {
-        echo "true";
-        }else{
-            echo "false";
-        }
+    $a = 4;
+
+    $c = 5;
+    $d = 4;
+    if($a == $b || $c == $d) {
+        echo "True statement";
+        
+    }
     ?>
 </body>
 </html>
