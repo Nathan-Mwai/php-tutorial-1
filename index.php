@@ -9,7 +9,8 @@
     <main>
         <form action="form/formhandler.php" method="post">
             <label for="firstname">Firstname?</label>
-            <input type="text" name="firstname" id="firstname" placeholder="Enter Your First Name"/>
+            <!-- The required is ot a guaranteeon security against submitting empty inputs. To prevent this I use server side security -->
+            <input required type="text" name="firstname" id="firstname" placeholder="Enter Your First Name"/>
 
             <label for="lastname">Lastname?</label>
             <input type="text" name="lastname" id="lastname" placeholder="Enter your last name"/>
