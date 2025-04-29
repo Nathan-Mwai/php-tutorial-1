@@ -7,7 +7,7 @@
 </head>
 <body>
     <main>
-        <form action="formhandler.php">
+        <form action="form/formhandler.php" method="post">
             <label for="firstname">Firstname?</label>
             <input type="text" name="firstname" id="firstname" placeholder="Enter Your First Name"/>
 
@@ -21,7 +21,9 @@
                 <option value="cat">Cat</option>
                 <option value="bird">Bird</option>
             </select>
-            <button type="submit">Submit</button>
+            <!-- name="submit" was used with isset -->
+             <button type="submit">Submit</button>
+
         </form>
     </main>
 </body>
