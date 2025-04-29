@@ -7,23 +7,10 @@
 </head>
 <body>
     <?php
-    // Arithmetic operator
-
-    echo 1 + 2;
-    echo "<br>";
-    echo 1 - 2;
-    echo "<br>";
-    echo 1 * 2;
-    echo "<br>";
-    echo 1 / 2;
-    echo "<br>";
-    echo 1 % 2;
-    echo "<br>";
-    echo 10 ** 3; //Power
-    echo "<br>";
-    echo 1 + 2 * 4; //uses bodmas
-    echo "<br>";
-    echo (1 + 2) * 4; //uses bodmas
+    // Assignment operator
+    $a = 2;
+    $a *= 4; // make a = 8
+    echo $a;
     ?>
 </body>
 </html>
