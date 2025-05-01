@@ -10,22 +10,25 @@
 
 <body>
     <?php
-    $fruits = ["Apple", "Banana", "Pineapple"];
+    
+    $string = "Hello World!";
+    // strlen checks length
+    echo strlen($string);
+    // checks position of specific character
+    echo strpos($string, "Wo");
+    //replacing a string
+    echo str_replace("World", "Nathan", $string);
 
-    $fruits[] = "Orange";
+    //Converts to lowercase
+    echo strtolower($string);
+    //uppercase
+    echo strtoupper($string);
 
-    echo $fruits[3];
-    // This one replaces the banana to avocado
-    $fruits[1] = "Avocado";
-    echo $fruits[1];
+    //substring
+    echo substr($string,0,-4);
 
-    //Delete a fruit without reseting the count i.e 1 remains empty and throws an error
-    // unset($fruits[1]);
-    // echo $fruits[1];
-
-    // Delete a fruit and reconfigure the count
-    array_splice($fruits,0,1); // Takes out banana
-    echo $fruits[1];
+    // taking apart this one divides
+    print_r(explode(" ",$string ))
     ?>
 </body>
 
