@@ -7,15 +7,20 @@
 </head>
 <body>
     <?php
-    // incrementing/decrementing operators
-    // ++a increases by 1
-    // --a decreases by 1
-    // a++ We add one to the variable but it won't be seen on the view. The original will be seen i.e if a = 1 then a++ = 1. However when we call tha variable below the v++ the "v" will return the v + v making it 2v 
-    $a = 2;
-    // a-- We subtract one to the variable but it won't be seen on the view. The original will be seen i.e if a = 1 then a-- = 1. However when we call tha variable below the v-- the "v" will return the v - v making it 0v 
-    $a = 2;
-    echo $a--;
-    echo $a;
+    // switch and if statements are similar to js
+    $a= "1";
+    $b=4;
+
+    $result = match ($a) {
+        // 1,2,3,4,5,6,7, this is how we use "or" using a comma
+        // it is strict on data types comparison
+        1 => "Variable a is equal to 1",
+        2 => "Variable a is equal to 2",
+        //default / else
+        default => "None were a match",
+    };
+
+    echo $result
     ?>
 </body>
 </html>
