@@ -10,25 +10,21 @@
 
 <body>
     <?php
-    
-    $string = "Hello World!";
-    // strlen checks length
-    echo strlen($string);
-    // checks position of specific character
-    echo strpos($string, "Wo");
-    //replacing a string
-    echo str_replace("World", "Nathan", $string);
 
-    //Converts to lowercase
-    echo strtolower($string);
-    //uppercase
-    echo strtoupper($string);
+    $number = -5.5;
 
-    //substring
-    echo substr($string,0,-4);
+    //Gets number whether negative or positive
+    echo abs($number);
+    //Rounds the number
+    echo round($number);
+    //power
+    echo pow(2,3);
+    // Square root
+    echo sqrt(16);
+    //random number
+    echo rand(1,100);
 
-    // taking apart this one divides
-    print_r(explode(" ",$string ))
+
     ?>
 </body>
 
