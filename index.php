@@ -11,14 +11,11 @@
 <body>
     <?php
 
-    //Date and time
-    echo date("Y-m-d H:i:s");
-
-    //time
-    echo time();
-   
-
-
+    function sayHello ($name){
+        return "Hello $name!";
+    };
+    $test = sayHello("Nathan") ;
+    echo $test;
     ?>
 </body>
 
