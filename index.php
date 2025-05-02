@@ -11,10 +11,10 @@
 <body>
     <?php
 
-    function sayHello ($name){
-        return "Hello $name!";
+    function sayHello ($name = "Mwai"){
+        return "Hello {$name}";
     };
-    $test = sayHello("Nathan") ;
+    $test = sayHello("Mwaniki") ;
     echo $test;
     ?>
 </body>
