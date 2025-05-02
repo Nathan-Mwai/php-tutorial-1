@@ -1,3 +1,6 @@
+<?php
+declare(strict_types= 1);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,10 +14,10 @@
 <body>
     <?php
 
-    function sayHello ($name = "Mwai"){
+    function sayHello (string $name){
         return "Hello {$name}";
     };
-    $test = sayHello("Mwaniki") ;
+    $test = sayHello(123) ;
     echo $test;
     ?>
 </body>
