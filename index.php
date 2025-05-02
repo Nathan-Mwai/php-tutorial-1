@@ -14,10 +14,11 @@ declare(strict_types= 1);
 <body>
     <?php
 
-    function sayHello (string $name){
-        return "Hello {$name}";
+    function calculator (int $num1, int $num2 ){
+        $result = $num1 + $num2;
+        return $result;
     };
-    $test = sayHello(123) ;
+    $test = calculator(2,5) ;
     echo $test;
     ?>
 </body>
