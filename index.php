@@ -11,27 +11,11 @@
 <body>
     <?php
 
-    $array = ["apple","banana", "orange"];
-    // checks how many values are in array
-    echo count($array);
-    // checks if it is an array
-    echo is_array($array);
-    // push data into array
-    array_push($array,"Mangoes");
-    print_r($array);
+    //Date and time
+    echo date("Y-m-d H:i:s");
 
-    //remove a value in the array
-    array_pop($array);
-    print_r($array);
-
-    // reverse array
-    print_r(array_reverse($array));
-
-    $array1 = ["apple","banana", "orange"];
-    $array2 = ["tree","branch", "color"];
-
-    //merge
-    print_r(array_merge($array1, $array2));
+    //time
+    echo time();
    
 
 
