@@ -14,9 +14,12 @@ declare(strict_types= 1);
 <body>
     <?php
 
+    $name = "Nathan";
     function calculator (int $num1, int $num2 ){
+
+        global $name; // This is how I access global variable in a block scope
         $result = $num1 + $num2;
-        return $result;
+        return $name;
     };
     $test = calculator(2,5) ;
     echo $test;
