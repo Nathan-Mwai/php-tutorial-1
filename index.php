@@ -1,5 +1,6 @@
 <?php
-declare(strict_types= 1);
+
+declare(strict_types=1);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,9 +14,30 @@ declare(strict_types= 1);
 
 <body>
     <?php
-    for( $i=0; $i <= 10; $i++ ){
-        echo "This is iteration number $i ". "<br>";
+    // While loop
+    // $test = 10;
+    // while ($test < 10) {
+    //     echo $test;
+    //     $test++;
+    // }
+
+    // Do while loop
+    // do{
+    //     echo $test;
+    //     $test++;
+    // } while($test < 10);
+
+    // foreach loop
+    // $fruits = ['apple', 'banana', 'orange'];
+    // foreach($fruits as $fruit){
+    //     echo "This is a $fruit" . "<br>";
+    // }
+
+    $fruits = array("Apple" => "Red", "Banana" => "Yellow", "Orange" => "Orange");
+    foreach ($fruits as $fruit => $color) {
+        echo "This is a $fruit that has a color of $color" . "<br>";
     }
+
     ?>
 </body>
 
